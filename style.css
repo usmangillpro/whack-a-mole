@@ -1,0 +1,35 @@
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 618px;
+  height: 618px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: black;
+}
+
+.mole {
+  background-image: url("mole.png");
+  background-size: cover;
+}
+
+.btn {
+  width: 80px;
+  height: 50px;
+
+  background-color: blueviolet;
+  color: black;
+}
+
+.aligned {
+  display: flex;
+  flex-flow: row wrap;
+
+  height: auto;
+}
